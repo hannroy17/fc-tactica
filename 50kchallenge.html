@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>50,000 Goals Challenge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header avec bouton reset et meilleur score -->
+  <header class="challenge-header">
+    <button id="reset-button" title="Restart game">
+      <svg class="refresh-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 2v6h-6"></path>
+        <path d="M3 12a9 9 0 0 1 15-6.7L21 8"></path>
+        <path d="M3 12a9 9 0 0 0 15 6.7L21 16"></path>
+      </svg>
+    </button>
+    <h1>50K GOALS CHALLENGE</h1>
+    <div id="best-score">Best: <span id="best-score-value">0</span></div>
+  </header>
+
+  <!-- Score actuel -->
+  <div class="score-section">
+    <span id="score">0</span>
+  </div>
+
+  <!-- Section joueur tiré au hasard -->
+  <div id="player-draw">
+    <div id="player-info">
+      <img id="player-image" src="" alt="Player" />
+      <h2 id="player-name">Waiting...</h2>
+    </div>
+  </div>
+
+  <!-- Zone des lignes de jeu -->
+  <div class="zones" id="grid-multipliers">
+    <div class="zone" data-multiplier="1">Career</div>
+    <div class="zone" data-multiplier="1">Career</div>
+    <div class="zone" data-multiplier="1">Career</div>
+    <div class="zone" data-multiplier="2">x2</div>
+    <div class="zone" data-multiplier="3">x3</div>
+    <div class="zone" data-multiplier="4">x4</div>
+    <div class="zone" data-multiplier="5">x5</div>
+    <div class="zone" data-multiplier="10">x10</div>
+    <div class="zone" data-multiplier="20">x20</div>
+    <div class="zone" data-multiplier="25">x25</div>
+  </div>
+
+  <!-- Scripts JS -->
+  <script src="js/legendPlayerData.js"></script>
+  <script src="js/50kchallenge.js"></script>
+</body>
+</html>
