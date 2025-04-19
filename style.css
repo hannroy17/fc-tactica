@@ -376,32 +376,36 @@ img.player-photo {
   margin: 0 auto;
 }
 
-.game-banner {
-  background-color: var(--grid-container-div-background);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-  overflow: hidden;
-  text-align: center;
-  padding-bottom: 1em;
+.game-banners {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  padding: 1em;
 }
 
-.banner-img {
+.game-banner img {
   width: 100%;
+  max-width: 350px;
   height: auto;
-  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
 }
 
-.game-banner h2 {
-  font-family: 'Anton', sans-serif;
-  font-size: 1.6rem;
-  margin: 0.5em 0 0.3em;
-  color: var(--primary-color);
+.game-banner img:hover {
+  transform: scale(1.02);
 }
 
-.game-banner p {
-  font-size: 1rem;
-  margin: 0 0 0.8em;
-  color: var(--text-color);
+/* Pour petits écrans (mobile) */
+@media (max-width: 600px) {
+  .game-banners {
+    flex-direction: column;
+  }
+
+  .game-banner img {
+    max-width: 90vw;
+  }
 }
 
 .play-button {
@@ -487,7 +491,7 @@ img.player-photo {
   background-color: #ffffff;
   border: 2px solid #ccc;
   border-radius: 8px;
-  padding: 0.4em 0.8em; /* Réduit le padding */
+  padding: 0em 0.6em; /* Réduit le padding */
   cursor: pointer;
   transition: background 0.2s, transform 0.2s;
   height: 36px; /* Hauteur fixe et basse */
@@ -540,4 +544,25 @@ img.player-photo {
 #player-img.loading {
   animation: flash 0.8s ease-in-out infinite;
   filter: grayscale(80%);
+}
+
+#celebration {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffd60a;
+  padding: 1em 2em;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #002855;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#celebration.show {
+  opacity: 1;
 }

@@ -4,6 +4,7 @@ const bestDisplay = document.getElementById('best-score');
 const resetButton = document.getElementById('reset-button');
 const playerImage = document.getElementById('player-image');
 const playerName = document.getElementById('player-name');
+const celebrationMessage = document.getElementById('celebration');
 
 const allPlayers = legendPlayerData.filter(p => p.goals && p.goals > 0);
 let usedPlayers = [];
@@ -11,29 +12,40 @@ let score = 0;
 let best = localStorage.getItem('bestScore') || 0;
 let currentPlayer = null;
 
+function formatNumber(n) {
+  return n.toLocaleString('fr-FR');
+}
+
 function updateScoreDisplay() {
   if (scoreDisplay) {
-    scoreDisplay.textContent = `Score: ${score} / 50,000`;
+    scoreDisplay.textContent = `Score : ${formatNumber(score)} / 50 000`;
   }
   if (bestDisplay) {
-    bestDisplay.textContent = `🏆 Best: ${best}`;
+    bestDisplay.textContent = `🏆 Best: ${formatNumber(best)}`;
   }
 }
 
 updateScoreDisplay();
 
 function spinPlayer() {
+  const availablePlayers = allPlayers.filter(p => !usedPlayers.includes(p));
+  if (availablePlayers.length === 0) {
+    playerName.textContent = 'Tous les joueurs ont été utilisés';
+    playerImage.src = '';
+    return;
+  }
+
   let i = 0;
   const spin = setInterval(() => {
-    const random = allPlayers[Math.floor(Math.random() * allPlayers.length)];
+    const random = availablePlayers[Math.floor(Math.random() * availablePlayers.length)];
     playerImage.src = random.img;
     playerName.textContent = random.name;
     i++;
-    if (i > 20) {
+    if (i > 10) { // raccourci la durée
       clearInterval(spin);
       currentPlayer = random;
     }
-  }, 70);
+  }, 60);
 }
 
 zones.forEach(zone => {
@@ -44,13 +56,19 @@ zones.forEach(zone => {
     const added = currentPlayer.goals * multiplier;
     score += added;
 
-    zone.innerHTML = `<img src="${currentPlayer.img}" alt="" class="mini-player" /><div>${currentPlayer.name}</div><div>+${added} goals</div>`;
+    zone.innerHTML = `<div><strong>${currentPlayer.name}</strong></div><div>+${formatNumber(added)} buts</div>`;
     zone.classList.add('filled');
 
     usedPlayers.push(currentPlayer);
     currentPlayer = null;
 
     updateScoreDisplay();
+
+    if (score >= 50000 && celebrationMessage) {
+      celebrationMessage.style.display = 'block';
+      celebrationMessage.classList.add('show');
+      setTimeout(() => celebrationMessage.classList.remove('show'), 3000);
+    }
 
     if ([...zones].every(z => z.classList.contains('filled'))) {
       if (score > best) {
@@ -73,8 +91,8 @@ resetButton.addEventListener('click', () => {
   usedPlayers = [];
   currentPlayer = null;
   updateScoreDisplay();
+  if (celebrationMessage) celebrationMessage.style.display = 'none';
   spinPlayer();
 });
 
-// Initial spin
 spinPlayer();

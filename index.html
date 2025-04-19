@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="manifest" href="manifest.json" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tactica FC - Home</title>
@@ -17,19 +18,14 @@
   </header>
 
   <main class="home-main">
-    <section class="game-banner">
-      <img src="assets/banners/tictactoe.png" alt="Tic Tac Toe Game" class="banner-img">
-      <h2>Tic Tac Toe Football</h2>
-      <p>Try to fill the grid</p>
-      <a href="tictactoe.html" class="play-button">Play</a>
-    </section>
-
-    <section class="game-banner">
-      <img src="assets/banners/50kgoalschallenge.png" alt="50000 Goals Challenge" class="banner-img">
-      <h2>50K Goals Challenge</h2>
-      <p>Try to beat your best score</p>
-      <a href="50kchallenge.html" class="play-button">Play</a>
-    </section>
+    <div class="game-banners">
+      <a href="tictactoe.html" class="game-banner">
+        <img src="assets/banners/tictactoe.png" alt="Tic Tac Toe">
+      </a>
+      <a href="50kchallenge.html" class="game-banner">
+        <img src="assets/banners/50kgoalschallenge.png" alt="50K Goals Challenge">
+      </a>
+    </div>
   </main>
 
 </body>

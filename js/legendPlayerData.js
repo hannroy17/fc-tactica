@@ -3,63 +3,63 @@ const legendPlayerData = [
     name: "Lionel Messi",
     clubs: ["PSG", "Barça", "Inter Miami", "Newell's Old Boys"],
     nationality: "Argentina",
-    img: "https://img.uefa.com/imgml/TP/players/2020/2022/324x324/95803.jpg",
+    img: "assets/players/messi.avif",
     goals: 858
   },
   {
     name: "Cristiano Ronaldo",
     clubs: ["Real", "Man Utd", "Juve", "Sporting", "Al Nassr"],
     nationality: "Portugal",
-    img: "https://img.uefa.com/imgml/TP/players/3/2024/324x324/63706.jpg",
+    img: "assets/players/christiano-ronaldo.avif",
     goals: 933
   },
   {
     name: "Neymar Jr",
     clubs: ["Barça", "PSG", "Al Hilal", "Santos"],
     nationality: "Brazil",
-    img: "https://b.fssta.com/uploads/application/soccer/headshots/713.png",
+    img: "assets/players/neymar.avif",
     goals: 450
   },
   {
     name: "Edinson Cavani",
     clubs: ["Danubio", "Palermo", "Napoli", "PSG", "Man Utd", "Valencia", "Boca Juniors"],
     nationality: "Uruguay",
-    img: "https://b.fssta.com/uploads/application/soccer/headshots/4041.vresize.350.350.medium.47.png",
+    img: "assets/players/cavani.avif",
     goals: 360
   },
   {
     name: "Zlatan Ibrahimovic",
     clubs: ["Malmö", "Ajax", "Juve", "Inter", "Barça", "Milan", "PSG", "Man Utd", "LA Galaxy", "Milan"],
     nationality: "Sweden",
-    img: "https://img.uefa.com/imgml/TP/players/3/2024/324x324/59217.jpg",
+    img: "assets/players/ibrahimovich.avif",
     goals: 511
   },
   {
     name: "Zinedine Zidane",
     clubs: ["Cannes", "Bordeaux", "Juve", "Real"],
     nationality: "France",
-    img: "https://imagecache.365scores.com/image/upload/f_png,w_64,h_64,c_limit,q_auto:eco,dpr_3,d_Athletes:default.png,r_max,c_thumb,g_face,z_0.65/Athletes/46215",
+    img: "assets/players/zidane.avif",
     goals: 125
   },
   {
     name: "David Beckham",
     clubs: ["Man Utd", "Preston", "Real", "LA Galaxy", "Milan", "PSG"],
     nationality: "England",
-    img: "https://i.ibb.co/8Dp9dXN/beckham.png",
+    img: "assets/players/beckham.avif",
     goals: 129
   },
   {
     name: "Ronaldinho",
     clubs: ["Grêmio", "PSG", "Barça", "Milan", "Flamengo", "Atlético Mineiro", "Querétaro", "Fluminense"],
     nationality: "Brazil",
-    img: "https://i.ibb.co/pXz9NKZ/ronaldinho.png",
+    img: "assets/players/ronaldinho.avif",
     goals: 197
   },
   {
     name: "Thierry Henry",
     clubs: ["Monaco", "Juventus", "Arsenal", "Barça", "New York Red Bulls", "Arsenal"],
     nationality: "France",
-    img: "https://static.wikia.nocookie.net/fifa/images/b/b1/ThierryHenry.png",
+    img: "assets/players/henry.avif",
     goals: 360
   },
   {
@@ -510,27 +510,27 @@ const legendPlayerData = [
     img: "https://s.hs-data.com/gfx/person/cropped/250x250/7677.png?",
     goals: 197
   },
-  {
-    name: "Nemanja Matic",
-    clubs: ["Košice", "Chelsea", "Vitesse", "Benfica", "Chelsea", "Man Utd", "Roma", "Rennes"],
-    nationality: "Serbia",
-    img: "https://img.uefa.com/imgml/TP/players/2019/2025/324x324/250005348.jpg",
-    goals: 26
-  },
-  {
-    name: "Victor Lindelof",
-    clubs: ["Västerås", "Benfica", "Man Utd"],
-    nationality: "Sweden",
-    img: "https://img.uefa.com/imgml/TP/players/3/2024/324x324/250055905.jpg",
-    goals: 9
-  },
-  {
-    name: "Martin Demichelis",
-    clubs: ["River Plate", "Bayern", "Málaga", "Man City", "Espanyol"],
-    nationality: "Argentina",
-    img: "https://i.ibb.co/dcZzy1y/demichelis.png",
-    goals: 41
-  },
+  //{
+    //name: "Nemanja Matic",
+    //clubs: ["Košice", "Chelsea", "Vitesse", "Benfica", "Chelsea", "Man Utd", "Roma", "Rennes"],
+    //nationality: "Serbia",
+    //img: "https://img.uefa.com/imgml/TP/players/2019/2025/324x324/250005348.jpg",
+    //goals: 26
+  //},
+  //{
+    //name: "Victor Lindelof",
+    //clubs: ["Västerås", "Benfica", "Man Utd"],
+    //nationality: "Sweden",
+    //img: "https://img.uefa.com/imgml/TP/players/3/2024/324x324/250055905.jpg",
+    //goals: 9
+  //},
+  //{
+    //name: "Martin Demichelis",
+    //clubs: ["River Plate", "Bayern", "Málaga", "Man City", "Espanyol"],
+    //nationality: "Argentina",
+    //img: "https://i.ibb.co/dcZzy1y/demichelis.png",
+    //goals: 41
+  //},
   {
     name: "Fabio Cannavaro",
     clubs: ["Napoli", "Parma", "Inter", "Juve", "Real", "Al-Ahli"],
@@ -836,7 +836,7 @@ const legendPlayerData = [
       name: "Romario",
       clubs: ["PSV", "Barça", "Flamengo", "Vasco", "Valencia"],
       nationality: "Brazil",
-      img: "https://api.efootballdb.com/assets/2022/players/88033407929807_.png",
+      img: "https://s3p.sofifa.net/dfb0983f507ed7dea8020bed48be27a51cd8d6e0.png",
       goals: 745
     },
     {
