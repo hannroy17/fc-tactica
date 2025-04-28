@@ -886,7 +886,7 @@ const legendPlayerData = [
       name: "Bebeto",
       clubs: ["Vitória", "Flamengo", "Vasco da Gama", "Deportivo La Coruña", "Sevilla", "Cruzeiro", "Toros Neza", "Kashima Antlers"],
       nationality: "Brazil",
-      img: "https://pesdb.net/pes2021/images/fb_image.php",
+      img: "https://sortitoutsi.b-cdn.net/uploads/face/67104826.png",
       goals: 276
     },
     {
