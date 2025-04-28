@@ -126,13 +126,6 @@ const legendPlayerData = [
     goals: 300
   },
   {
-    name: "Mauro Icardi",
-    clubs: ["Sampdoria", "Inter", "PSG", "Galatasaray"],
-    nationality: "Argentina",
-    img: "https://kayserispor.gen.tr/uploads/icardi.png",
-    goals: 190
-  },
-  {
     name: "Clarence Seedorf",
     clubs: ["Ajax", "Sampdoria", "Real", "Inter", "Milan"],
     nationality: "Netherlands",
@@ -171,15 +164,8 @@ const legendPlayerData = [
     name: "Xabi Alonso",
     clubs: ["Real Sociedad", "Liverpool", "Real", "Bayern"],
     nationality: "Spain",
-    img: "https://e00-marca.uecdn.es/deporte/futbol/mundial/imagenes/jugadores/laRoja/alonso.png",
+    img: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2d088987-6927-469b-b8f7-245ea6495716/d53vxux-14f426e9-911e-4a69-8a16-e200d7ba24cd.jpg",
     goals: 42
-  },
-  {
-    name: "Alex",
-    clubs: ["Santos", "PSV", "Chelsea", "PSG", "Milan"],
-    nationality: "Brazil",
-    img: "https://i.ibb.co/XpSvxL2/alex.png",
-    goals: 34
   },
   {
     name: "David Trezeguet",
@@ -210,13 +196,6 @@ const legendPlayerData = [
     goals: 110
   },
   {
-    name: "Mikel Arteta",
-    clubs: ["PSG", "Rangers", "Real Sociedad", "Everton", "Arsenal"],
-    nationality: "Spain",
-    img: "https://i.namu.wiki/i/AI_LsJXu7DgTep0uM3rpJM9CDfZaTZB8tMI3F0DuCtW5T-mT1UynzrTg-lSBsusnxnrGFj5CbctQeYVHYr8YiA.webp",
-    goals: 61
-  },
-  {
     name: "Thiago Motta",
     clubs: ["Barça", "Atletico", "Genoa", "Inter", "PSG"],
     nationality: "Italy",
@@ -229,13 +208,6 @@ const legendPlayerData = [
     nationality: "France",
     img: "https://i.ibb.co/t3WB575/deschamps.png",
     goals: 15
-  },
-  {
-    name: "Ezequiel Lavezzi",
-    clubs: ["San Lorenzo", "Napoli", "PSG", "Hebei China Fortune"],
-    nationality: "Argentina",
-    img: "https://i.ibb.co/qrjGSCF/lavezzi.png",
-    goals: 139
   },
   {
     name: "Laurent Blanc",
@@ -364,13 +336,6 @@ const legendPlayerData = [
     goals: 366
   },
   {
-    name: "Hatem Ben Arfa",
-    nationality: "France",
-    clubs: ["Lyon", "Marseille", "Newcastle", "Hull City", "Nice", "PSG", "Rennes", "Bordeaux", "Lille"],
-    img: "https://cdn.futwiz.com/assets/img/fifa17/faces/161648.png",
-    goals: 67
-  },
-  {
     name: "Cafu",
     nationality: "Brazil",
     clubs: ["São Paulo", "Real Zaragoza", "Palmeiras", "Roma", "Milan"],
@@ -385,25 +350,11 @@ const legendPlayerData = [
     goals: 767
   },
   {
-    name: "Gennaro Gattuso",
-    nationality: "Italy",
-    clubs: ["Milan"],
-    img: "https://sortitoutsi.b-cdn.net/uploads/extractedfiles/e4ecb909864a9dcc96d1989dd963be68/FC%20Sion/3801681.png",
-    goals: 13
-  },
-  {
     name: "Fernando Morientes",
     nationality: "Spain",
     clubs: ["Real", "Monaco", "Liverpool", "Valencia"],
     img: "https://s3p.sofifa.net/3443d70b5aea6eaf65189ecb6d12080e86230a6d.png",
     goals: 197
-  },
-  {
-    name: "William Gallas",
-    nationality: "France",
-    clubs: ["Chelsea", "Arsenal", "Tottenham", "Marseille", "Caen"],
-    img: "https://cdn.staticneo.com/w/footballmanager/Gallasspurs.jpg",
-    goals: 26
   },
   {
     name: "Dimitar Berbatov",
@@ -448,13 +399,6 @@ const legendPlayerData = [
     goals: 239
   },
   {
-    name: "Emmanuel Petit",
-    clubs: ["Monaco", "Arsenal", "Barça", "Chelsea"],
-    nationality: "France",
-    img: "https://i.ibb.co/dMyrwHC/petit.png",
-    goals: 6
-  },
-  {
     name: "Sergio Aguero",
     clubs: ["Independiente", "Atletico", "Man City", "Barça"],
     nationality: "Argentina",
@@ -497,41 +441,6 @@ const legendPlayerData = [
     goals: 0
   },
   {
-    name: "Kostas Mitroglou",
-    clubs: ["Borussia Mönchengladbach II", "Olympiacos", "Fulham", "Benfica", "Marseille", "Galatasaray", "Aris", "Apollon Smyrnis"],
-    nationality: "Greece",
-    img: "https://cdn.futbin.com/content/fifa21/img/players/183483.png",
-    goals: 151
-  },
-  {
-    name: "Mario Mandzukic",
-    clubs: ["Marsonia", "Zagreb", "Dinamo Zagreb", "Wolfsburg", "Bayern", "Atletico", "Juve", "Milan", "Al-Duhail"],
-    nationality: "Croatia",
-    img: "https://s.hs-data.com/gfx/person/cropped/250x250/7677.png?",
-    goals: 197
-  },
-  //{
-    //name: "Nemanja Matic",
-    //clubs: ["Košice", "Chelsea", "Vitesse", "Benfica", "Chelsea", "Man Utd", "Roma", "Rennes"],
-    //nationality: "Serbia",
-    //img: "https://img.uefa.com/imgml/TP/players/2019/2025/324x324/250005348.jpg",
-    //goals: 26
-  //},
-  //{
-    //name: "Victor Lindelof",
-    //clubs: ["Västerås", "Benfica", "Man Utd"],
-    //nationality: "Sweden",
-    //img: "https://img.uefa.com/imgml/TP/players/3/2024/324x324/250055905.jpg",
-    //goals: 9
-  //},
-  //{
-    //name: "Martin Demichelis",
-    //clubs: ["River Plate", "Bayern", "Málaga", "Man City", "Espanyol"],
-    //nationality: "Argentina",
-    //img: "https://i.ibb.co/dcZzy1y/demichelis.png",
-    //goals: 41
-  //},
-  {
     name: "Fabio Cannavaro",
     clubs: ["Napoli", "Parma", "Inter", "Juve", "Real", "Al-Ahli"],
     nationality: "Italy",
@@ -565,13 +474,6 @@ const legendPlayerData = [
     nationality: "England",
     img: "https://static.wikia.nocookie.net/the-football-database/images/1/18/Ferdinand.png",
     goals: 11
-  },
-  {
-    name: "Leonardo",
-    clubs: ["Flamengo", "São Paulo", "Kashima Antlers", "Valencia", "PSG", "Milan"],
-    nationality: "Brazil",
-    img: "https://sortitoutsidospaces.b-cdn.net/megapacks/cutoutfaces/originals/3.10/11096.png",
-    goals: 59
   },
   {
     name: "Ruud van Nistelrooy",
@@ -623,13 +525,6 @@ const legendPlayerData = [
     goals: 402
   },
     {
-      name: "Eric Abidal",
-      clubs: ["Monaco", "Lille", "Lyon", "Barça", "Olympiakos"],
-      nationality: "France",
-      img: "https://fifaaddict.com/fo3img/players/p7141645.png",
-      goals: 9
-    },
-    {
       name: "Eden Hazard",
       clubs: ["Lille", "Chelsea", "Real"],
       nationality: "Belgium",
@@ -637,25 +532,11 @@ const legendPlayerData = [
       goals: 167
     },
     {
-      name: "Samir Nasri",
-      clubs: ["Marseille", "Arsenal", "Man City", "Sevilla", "Antalyaspor", "West Ham", "Anderlecht"],
-      nationality: "France",
-      img: "https://static.wikia.nocookie.net/the-football-database/images/1/17/Manchester_City_S._Nasri_001.png",
-      goals: 71
-    },
-    {
       name: "Petr Cech",
       clubs: ["Sparta Prague", "Rennes", "Chelsea", "Arsenal"],
       nationality: "Czech Republic",
       img: "https://e7.pngegg.com/pngimages/8/373/png-clipart-petr-%C4%8Cech-premier-league-2018-world-cup-japan-national-football-team-premier-league-face-head-thumbnail.png",
       goals: 0
-    },
-    {
-      name: "Blaise Matuidi",
-      clubs: ["Troyes", "Saint-Étienne", "PSG", "Juve", "Inter Miami"],
-      nationality: "France",
-      img: "https://i.ibb.co/Ycynfgh/8442483.png",
-      goals: 41
     },
     {
       name: "Claude Makelele",
@@ -679,27 +560,6 @@ const legendPlayerData = [
       goals: 350
     },
     {
-      name: "Adil Rami",
-      clubs: ["Lille", "Valencia", "Milan", "Sevilla", "Marseille", "Fenerbahçe", "Boavista", "Troyes"],
-      nationality: "France",
-      img: "https://i.ibb.co/7QPbmpw/adil-rami.png",
-      goals: 25
-    },
-    {
-      name: "Ludovic Giuly",
-      clubs: ["Lyon", "Monaco", "Barça", "Roma", "PSG", "Lorient"],
-      nationality: "France",
-      img: "https://i.ibb.co/Z622FNX/giuly.png",
-      goals: 120
-    },
-    {
-      name: "Patrice Evra",
-      clubs: ["Monaco", "Man Utd", "Juve", "Marseille", "West Ham"],
-      nationality: "France",
-      img: "https://i.ibb.co/nD8dNpv/evra.png",
-      goals: 12
-    },
-    {
       name: "Michael Ballack",
       clubs: ["Chemnitzer FC", "Kaiserslautern", "Leverkusen", "Bayern", "Chelsea"],
       nationality: "Germany",
@@ -713,13 +573,7 @@ const legendPlayerData = [
       img: "https://cdn.resfu.com/img_data/players/medium/37128.jpg",
       goals: 210
     },
-    {
-      name: "Marek Hamsik",
-      clubs: ["Slovan Bratislava", "Brescia", "Napoli", "Dalian Pro", "Trabzonspor"],
-      nationality: "Slovakia",
-      img: "https://i.ibb.co/LPhtmWb/hamsik.png",
-      goals: 145
-    },
+
     {
       name: "Didier Drogba",
       clubs: ["Le Mans", "Guingamp", "Marseille", "Chelsea", "Shanghai Shenhua", "Galatasaray", "Montreal Impact", "Phoenix Rising"],
@@ -756,25 +610,11 @@ const legendPlayerData = [
       goals: 224
     },
     {
-      name: "Bastian Schweinsteiger",
-      clubs: ["Bayern", "Man Utd", "Chicago Fire"],
-      nationality: "Germany",
-      img: "https://miro.medium.com/v2/resize:fit:400/1*YbGV4_gIdi2OxVu-V2uN1w.png",
-      goals: 68
-    },
-    {
       name: "Marco van Basten",
       clubs: ["Ajax", "Milan"],
       nationality: "Netherlands",
       img: "https://i.ibb.co/ctPcmh4/van-basten-2.png",
       goals: 301
-    },
-    {
-      name: "Michael Essien",
-      clubs: ["Bastia", "Lyon", "Chelsea", "Real", "Milan", "Panathinaikos", "Persib Bandung", "Sabail"],
-      nationality: "Ghana",
-      img: "https://cdn.staticneo.com/w/footballmanager/Essienpic.png",
-      goals: 38
     },
     {
       name: "Filippo Inzaghi",
@@ -789,13 +629,6 @@ const legendPlayerData = [
       nationality: "Italy",
       img: "https://cdn.futwiz.com/assets/img/fifa16/faces/942.png",
       goals: 236
-    },
-    {
-      name: "Florent Malouda",
-      clubs: ["Châteauroux", "Guingamp", "Lyon", "Chelsea", "Metz"],
-      nationality: "France",
-      img: "https://cdn.sofifa.net/players/045/601/13_360.png",
-      goals: 87
     },
     {
       name: "Samuel Eto'o",
@@ -922,5 +755,152 @@ const legendPlayerData = [
       nationality: "Hungary",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQCTiVWtCHlbLCerDXxRAmCw1wi89FDY1o2g&s",
       goals: 416
+    },
+    {
+      name: "Mohamed Salah",
+      clubs: ["Basel", "Chelsea", "Fiorentina", "Roma", "Liverpool"],
+      nationality: "Egypt",
+      img: "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250052469.jpg",
+      goals: 320
+    },
+    {
+      name: "Sadio Mane",
+      clubs: ["Metz", "Salzburg", "Southampton", "Liverpool", "Bayern", "Al Nassr"],
+      nationality: "Senegal",
+      img: "https://fifastatic.fifaindex.com/FIFA22/players/208722.png",
+      goals: 210
+    },
+    {
+      name: "Romelu Lukaku",
+      clubs: ["Anderlecht", "Chelsea", "West Brom", "Everton", "Man Utd", "Inter", "Roma"],
+      nationality: "Belgium",
+      img: "https://img.uefa.com/imgml/TP/players/3/2024/324x324/250010802.jpg",
+      goals: 340
+    },
+    {
+      name: "Angel Di María",
+      clubs: ["Rosario Central", "Benfica", "Real", "Man Utd", "PSG", "Juve", "Benfica"],
+      nationality: "Argentina",
+      img: "https://img.uefa.com/imgml/TP/players/1/2025/324x324/1905153.jpg",
+      goals: 160
+    },
+    {
+      name: "Olivier Giroud",
+      clubs: ["Grenoble", "Tours", "Montpellier", "Arsenal", "Chelsea", "Milan"],
+      nationality: "France",
+      img: "https://img.uefa.com/imgml/TP/players/3/2024/324x324/250020851.jpg",
+      goals: 280
+    },
+    {
+      name: "Youri Djorkaeff",
+      clubs: ["Grenoble", "Strasbourg", "Monaco", "PSG", "Inter", "Kaiserslautern", "Bolton", "Blackburn", "MetroStars"],
+      nationality: "France",
+      img: "https://equipe-france.s3.eu-west-3.amazonaws.com/img/personne/youri-djorkaeff-1.png",
+      goals: 160
+    },
+    {
+      name: "Just Fontaine",
+      clubs: ["USM Casablanca", "Nice", "Reims"],
+      nationality: "France",
+      img: "https://www.playmakerstats.com/img/jogadores/85/751285_med__20210212151529_just_fontaine.png",
+      goals: 226
+    },
+    {
+      name: "Raymond Kopa",
+      clubs: ["Angers", "Reims", "Real"],
+      nationality: "France",
+      img: "https://s3p.sofifa.net/5c26e801fb499e9b7a09b7369f9950a61476ede0.png",
+      goals: 123
+    },
+    {
+      name: "Telmo Zarra",
+      nationality: "Spain",
+      clubs: ["Athletic Bilbao"],
+      img: "https://cdn.athletic-club.eus/imagenes/fotofichas/SM/telmo-zarraonandia-montoya_SM.png",
+      goals: 352
+    },
+    {
+      name: "Iván Zamorano",
+      nationality: "Chile",
+      clubs: ["Sevilla", "Real", "Inter", "América"],
+      img: "https://s3p.sofifa.net/3ae14e77e18bf00006bd27bac52c3f722f64609e.png",
+      goals: 270
+    },
+    {
+      name: "Klaas-Jan Huntelaar",
+      nationality: "Netherlands",
+      clubs: ["Heerenveen", "Ajax", "Real", "Milan", "Schalke", "Ajax"],
+      img: "https://cdn.futwiz.com/assets/img/fifa19/faces/148803.png",
+      goals: 367
+    },
+    {
+      name: "Enzo Francescoli",
+      nationality: "Uruguay",
+      clubs: ["River Plate", "Marseille", "Cagliari", "Torino"],
+      img: "https://static.wefut.com/assets/images/fut25/playeravatars/275049.png",
+      goals: 225
+    },
+    {
+      name: "Jean-Pierre Papin",
+      nationality: "France",
+      clubs: ["Valenciennes", "Club Brugge", "Marseille", "Milan", "Bayern", "Bordeaux"],
+      img: "https://cdn3.futbin.com/content/fifa25/img/players/167134.png",
+      goals: 340
+    },
+    {
+      name: "David Villa",
+      clubs: ["Sporting Gijón", "Zaragoza", "Valencia", "Barça", "Atlético", "Melbourne City", "New York City", "Vissel Kobe"],
+      nationality: "Spain",
+      img: "https://static.wikia.nocookie.net/the-football-database/images/9/9f/Spain_D._Villa_001.png",
+      goals: 380
+    },
+    {
+      name: "Eusébio",
+      clubs: ["Sporting Lourenço Marques", "Benfica", "Boston Minutemen", "Monterrey", "Beira-Mar"],
+      nationality: "Portugal",
+      img: "https://static.wefut.com/assets/images/fut24/playeravatars/242519.png",
+      goals: 473
+    },
+    {
+      name: "Diego Forlán",
+      clubs: ["Independiente", "Man Utd", "Villarreal", "Atlético", "Inter", "Internacional", "Cerezo Osaka", "Peñarol", "Kitchee"],
+      nationality: "Uruguay",
+      img: "https://static.wikia.nocookie.net/fifa/images/1/16/Diego_Forlan_Fifa_14.png",
+      goals: 273
+    },
+    {
+      name: "Patrick Kluivert",
+      clubs: ["Ajax", "Milan", "Barça", "Newcastle", "Valencia", "PSV", "Lille"],
+      nationality: "Netherlands",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwear2yIaX8dfKMQ1tXRITbg-4sEdbnx2CyA&s",
+      goals: 239
+    },
+    {
+      name: "Henrik Larsson",
+      clubs: ["Högaborgs", "Helsingborg", "Feyenoord", "Celtic", "Barça", "Manchester United", "Helsingborg"],
+      nationality: "Sweden",
+      img: "https://static.wefut.com/assets/images/fut18/playeravatars/52241.png",
+      goals: 416
+    },
+    {
+      name: "Bebeto",
+      clubs: ["Vitória", "Flamengo", "Vasco da Gama", "Deportivo La Coruña", "Sevilla", "Cruzeiro", "Toros Neza", "Kashima Antlers"],
+      nationality: "Brazil",
+      img: "https://pesdb.net/pes2021/images/fb_image.php",
+      goals: 276
+    },
+    {
+      name: "Pauleta",
+      clubs: ["União Micaelense", "Estoril", "Salamanca", "Deportivo La Coruña", "Bordeaux", "PSG"],
+      nationality: "Portugal",
+      img: "https://fmdataba.com/images/p2/275527.png",
+      goals: 340
+    },
+    {
+      name: "Alexander Frei",
+      clubs: ["Basel", "Thun", "Luzern", "Servette", "Rennes", "Dortmund", "Basel"],
+      nationality: "Switzerland",
+      img: "https://sortitoutsidospaces.b-cdn.net/images/ggvSouO2tSogIw8xwGo8NhxIwD8N8Far.png",
+      goals: 278
     }
 ];

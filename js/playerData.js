@@ -9,27 +9,6 @@ const playerData = [
     goals: 300
   },
   {
-    name: "Lionel Messi",
-    clubs: ["PSG", "Barça", "Inter Miami", "Newell's Old Boys"],
-    nationality: "Argentina",
-    img: "https://img.uefa.com/imgml/TP/players/2020/2022/324x324/95803.jpg",
-    goals: 830
-  },
-  {
-    name: "Cristiano Ronaldo",
-    clubs: ["Real", "Man Utd", "Juve", "Sporting", "Al Nassr"],
-    nationality: "Portugal",
-    img: "https://img.uefa.com/imgml/TP/players/3/2024/324x324/63706.jpg",
-    goals: 875
-  },
-  {
-    name: "Neymar Jr",
-    clubs: ["Barça", "PSG", "Al Hilal", "Santos"],
-    nationality: "Brazil",
-    img: "https://i.ibb.co/xKJhBz4f/neymar.webp",
-    goals: 450
-  },
-  {
     name: "Erling Haaland",
     clubs: ["Man City", "Dortmund", "Salzburg", "Molde", "Bryne"],
     nationality: "Norway",
@@ -49,20 +28,6 @@ const playerData = [
     nationality: "Croatia",
     img: "https://img.uefa.com/imgml/TP/players/1/2025/324x324/74699.jpg",
     goals: 45
-  },
-  {
-    name: "Karim Benzema",
-    clubs: ["Lyon", "Real", "Al-Ittihad"],
-    nationality: "France",
-    img: "https://b.fssta.com/uploads/application/soccer/headshots/864.png",
-    goals: 450
-  },
-  {
-    name: "Robert Lewandowski",
-    clubs: ["Znicz Pruszkow", "Lech Poznań", "Dortmund", "Bayern", "Barça"],
-    nationality: "Poland",
-    img: "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250002096.jpg",
-    goals: 640
   },
   {
     name: "Virgil van Dijk",
@@ -100,39 +65,11 @@ const playerData = [
     goals: 50
   },
   {
-    name: "Mohamed Salah",
-    clubs: ["Basel", "Chelsea", "Fiorentina", "Roma", "Liverpool"],
-    nationality: "Egypt",
-    img: "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250052469.jpg",
-    goals: 320
-  },
-  {
     name: "Riyad Mahrez",
     clubs: ["Le Havre", "Leicester", "Man City", "Al-Ahli"],
     nationality: "Algeria",
     img: "https://cdn.futwiz.com/assets/img/fifa20/faces/204485.png",
     goals: 130
-  },
-  {
-    name: "Sadio Mane",
-    clubs: ["Metz", "Salzburg", "Southampton", "Liverpool", "Bayern", "Al Nassr"],
-    nationality: "Senegal",
-    img: "https://fifastatic.fifaindex.com/FIFA22/players/208722.png",
-    goals: 210
-  },
-  {
-    name: "Romelu Lukaku",
-    clubs: ["Anderlecht", "Chelsea", "West Brom", "Everton", "Man Utd", "Inter", "Roma"],
-    nationality: "Belgium",
-    img: "https://img.uefa.com/imgml/TP/players/3/2024/324x324/250010802.jpg",
-    goals: 340
-  },
-  {
-    name: "Angel Di María",
-    clubs: ["Rosario Central", "Benfica", "Real", "Man Utd", "PSG", "Juve", "Benfica"],
-    nationality: "Argentina",
-    img: "https://img.uefa.com/imgml/TP/players/1/2025/324x324/1905153.jpg",
-    goals: 160
   },
   {
     name: "Pedri",

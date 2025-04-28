@@ -3,7 +3,7 @@
 const grid = document.getElementById('grid');
 const searchInput = document.getElementById('player-search');
 const suggestionsList = document.getElementById('suggestions');
-const fullPlayerData = [...playerData, ...legendPlayerData];
+const fullPlayerData = [...playerData, ...legendPlayerData, ...retiredPlayerData];
 
 let currentPlayers = [];
 let clubs = [];
