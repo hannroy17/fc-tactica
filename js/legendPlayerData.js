@@ -902,5 +902,61 @@ const legendPlayerData = [
       nationality: "Switzerland",
       img: "https://sortitoutsidospaces.b-cdn.net/images/ggvSouO2tSogIw8xwGo8NhxIwD8N8Far.png",
       goals: 278
+    },
+    {
+      name: "Jon Dahl Tomasson",
+      clubs: ["Heerenveen", "Newcastle", "Feyenoord", "Milan", "Villarreal", "Stuttgart"],
+      nationality: "Denmark",
+      goals: 187,
+      img: "https://s3p.sofifa.net/cece77adc6610d0b3aba22f7f3bd2ac89de5d84e.png"
+    },
+    {
+      name: "Antonio Di Natale",
+      clubs: ["Empoli", "Udinese"],
+      nationality: "Italy",
+      goals: 258,
+      img: "https://static.wikia.nocookie.net/the-football-database/images/e/ee/Di_Natale.png"
+    },
+    {
+      name: "Álvaro Negredo",
+      clubs: ["Almería", "Sevilla", "Man City", "Valencia", "Middlesbrough", "Besiktas", "Cádiz"],
+      nationality: "Spain",
+      goals: 185,
+      img: "https://www.fifarosters.com/assets/players/fifa23/faces/146439.png"
+    },
+    {
+      name: "Edin Dzeko",
+      clubs: ["Željezničar", "Teplice", "Wolfsburg", "Man City", "Roma", "Inter", "Fenerbahçe"],
+      nationality: "Bosnia and Herzegovina",
+      goals: 350,
+      img: "https://www.playmakerstats.com/img/jogadores/new/82/99/38299_edin_dzeko_20250319171742.png"
+    },
+    {
+      name: "Alfredo Di Stéfano",
+      clubs: ["River Plate", "Huracán", "Millonarios", "Real Madrid", "Espanyol"],
+      nationality: "Argentina",
+      goals: 512,
+      img: "https://cdn.resfu.com/img_data/players/medium/254189.jpg"
+    },
+    {
+      name: "Garrincha",
+      clubs: ["Botafogo", "Corinthians"],
+      nationality: "Brazil",
+      goals: 232,
+      img: "https://www.fifarosters.com/assets/players/fifa24/faces/247553.png"
+    },
+    {
+      name: "Gyorgy Sarosi",
+      nationality: "Hungary",
+      clubs: ["Ferencváros"],
+      img: "https://www.dx84tech.com/wp-content/uploads/2025/04/Gyorgy-SAROSI-512.png",
+      goals: 511
+    },
+    {
+      name: "Glenn Ferguson",
+      nationality: "Northern Ireland",
+      clubs: ["Glenavon", "Linfield"],
+      img: "https://sortitoutsi.b-cdn.net/uploads/face/116864.png",
+      goals: 563
     }
 ];
